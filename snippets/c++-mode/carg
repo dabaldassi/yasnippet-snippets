@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: const & arg
+# key: carg
+# --
+const ${1:$$(yas/choose-value '("std::string" "T" ""))}& ${2:arg}
